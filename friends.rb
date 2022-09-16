@@ -5,3 +5,9 @@ num.each do |int|
     p int
   end
 end
+
+num.each do |int|
+  if int < 60
+    p int
+  end
+end
